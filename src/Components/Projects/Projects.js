@@ -32,7 +32,7 @@ function Projects() {
                             <img src={Todo} className="card-img-top" alt="Job Portal" />
                             <div className="card-body">
                                 <h5 className="card-title">Simple Todo App</h5>
-                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <p className="card-text">Created a simple todo app that you can list some todos from API, add todo, delete todo.</p>
                                 <a className="btn disabled">More Detail</a>
                             </div>
                         </div>
