@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import './About.css'
 import AOS from 'aos'
 import profil from '../../Assets/Images/profil.png'
+import CV from "../../Assets/Documents/Qendresa-Kodraliu-CV.pdf"
 
 
 function About() {
@@ -25,7 +26,7 @@ function About() {
                                 improvements can make a meaningful impact on the user and the business.
                             </p>
 
-                            <button className='btn downloadcvbtn mt-3' >Download CV</button>
+                            <a className='btn downloadcvbtn mt-3' href={CV} download>Download CV</a>
                         </div>
                     </div>
                 </div>
