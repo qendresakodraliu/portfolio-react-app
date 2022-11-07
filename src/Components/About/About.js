@@ -11,10 +11,7 @@ function About() {
     return (
         <div className="w-100 about" id='about'>
             <div className='container' >
-                <div className='row pt-5'>
-                    <div className='col-12 col-md-6 col-lg-6 aboutImagePart' data-aos="fade-right">
-                        <img src={profil} alt="Yousaf"></img>
-                    </div>
+                <div className='row pt-5 d-flex justify-content-center'>
                     <div className='col-12 col-m d-6 col-lg-6 text-light aboutTextPart' data-aos="fade-left">
                         <div>
                             <h3 className="welcome">
