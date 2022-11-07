@@ -7,7 +7,7 @@ function Contact() {
             <br /><h1>Contact</h1> <br />
             <hr className="contactLine" /><br />
             <div id="contactForm" className="mx-md-auto text-center container">
-                <form action="" method="post" name="contact">
+                <form action="https://formspree.io/f/maykaywk" method="post" name="contact">
                     <input type="hidden" name="form-name" value="contact" />
                     <div className="form-group mt-2">
                         <label for="uname">Username:</label>
