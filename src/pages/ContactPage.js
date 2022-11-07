@@ -3,13 +3,12 @@ import Nav from '../Components/Navbar/Navbar';
 import Contact from '../Components/Contact/Contact';
 import Footer from '../Components/Footer/Footer';
 
-
 function ContactPage() {
   return (
     <div className="App">
-        <Nav/>
-        <Contact/>
-        <Footer/>
+      <Nav />
+      <Contact />
+      <Footer />
     </div>
   );
 }

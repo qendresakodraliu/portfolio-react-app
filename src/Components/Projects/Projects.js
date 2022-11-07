@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React, { useEffect } from 'react'
 import './Projects.css'
 import SocialMedia from '../../Assets/Images/Social-Media-min.png'
 import OnlineVote from '../../Assets/Images/online vote.png'
@@ -8,13 +8,13 @@ import 'aos/dist/aos.css'
 
 function Projects() {
     useEffect(() => {
-        AOS.init({duration: 2000})
+        AOS.init({ duration: 2000 })
     }, []);
-    return(
+    return (
         <div className='projects p-5' id='projects'>
             <div className='myProjectsText'>
                 <h3>MY <span>Projects</span></h3> <br /> <hr />
-            </div> 
+            </div>
             <div className='container text-center mt-4'>
                 <div className='row'>
                     <div className='col-12 col-md-6 col-lg-4 p-4' data-aos="flip-right">

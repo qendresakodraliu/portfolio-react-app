@@ -1,8 +1,7 @@
 import React, { useEffect } from 'react'
 import './Skills.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import {faCode} from '@fortawesome/free-solid-svg-icons'
-import { faReact, faBootstrap, faHtml5, faCode, faCss3, faGithub, faJs } from '@fortawesome/free-brands-svg-icons'
+import { faReact, faBootstrap, faHtml5, faCss3, faGithub, faJs } from '@fortawesome/free-brands-svg-icons'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 

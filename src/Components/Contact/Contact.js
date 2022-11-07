@@ -2,20 +2,20 @@ import React from 'react'
 import './Contact.css'
 
 function Contact() {
-    return(
+    return (
         <section className="contact text-center text-white pb-3" id="contact">
             <br /><h1>Contact</h1> <br />
-            <hr className="contactLine" /><br />  
+            <hr className="contactLine" /><br />
             <div id="contactForm" className="mx-md-auto text-center container">
                 <form action="" method="post" name="contact">
                     <input type="hidden" name="form-name" value="contact" />
                     <div className="form-group mt-2">
                         <label for="uname">Username:</label>
-                        <input type="text" className="form-control" id="uname" placeholder="Enter username" name="uname" required=""/>
+                        <input type="text" className="form-control" id="uname" placeholder="Enter username" name="uname" required="" />
                     </div>
                     <div className="form-group mt-2">
                         <label for="email">Email:</label>
-                        <input type="Email" className="form-control" id="email" placeholder="Enter Email" name="email" required=""/>
+                        <input type="Email" className="form-control" id="email" placeholder="Enter Email" name="email" required="" />
                     </div>
                     <div className="form-group mt-2">
                         <label for="message">Message:</label>

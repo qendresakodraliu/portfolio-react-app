@@ -4,7 +4,7 @@ import 'bootstrap/js/dist/collapse';
 import 'bootstrap/js/dist/offcanvas'
 import 'bootstrap/js/dist/dropdown'
 import './Navbar.css'
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Nav() {
     return (

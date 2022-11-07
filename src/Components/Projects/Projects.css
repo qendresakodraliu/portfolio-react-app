@@ -12,19 +12,22 @@ hr {
     text-align: center;
 }
 
-.myProjectsText span{
+.myProjectsText span {
     color: rgb(211, 23, 111);
 }
+
 .card {
     transition: 2s;
 }
+
 .card:hover {
     cursor: pointer;
     transform: scale(1.1);
 }
+
 .card-body a {
     color: white;
-    background-color: rgb(211, 23, 111); 
+    background-color: rgb(211, 23, 111);
 }
 
 .card-body a:hover {
