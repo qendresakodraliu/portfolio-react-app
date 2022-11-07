@@ -1,0 +1,43 @@
+.skills {
+    background-color: black;
+    color: white;
+}
+
+hr {
+    height: 2px;
+    background-image: -webkit-linear-gradient(left, rgb(0, 0, 0), rgb(255, 255, 255), rgb(255, 255, 255), rgb(0, 0, 0));
+}
+
+.myskillItemText {
+    text-align: center;
+}
+
+.myskillItemText span {
+    color: rgb(211, 23, 111);
+}
+
+.skillItemIcon {
+    color: rgb(211, 23, 111);
+}
+
+.skillItemIcon span {
+    border-color: rgb(211, 23, 111) !important;
+}
+
+.skillItem {
+    transition: 1s;
+}
+
+.skillItem:hover {
+    background-color: rgb(211, 23, 111);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.skillItem:hover .skillItemIcon {
+    color: white;
+}
+
+.skillItem:hover .skillItemIcon span {
+    border-color: white !important;
+}
