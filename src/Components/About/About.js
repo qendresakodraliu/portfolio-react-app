@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react'
 import './About.css'
 import AOS from 'aos'
-import profil from '../../Assets/Images/profil.png'
 import CV from "../../Assets/Documents/Qendresa-Kodraliu-CV.pdf"
 
 
@@ -11,7 +10,7 @@ function About() {
     }, [])
     return (
         <div className="w-100 about" id='about'>
-            <div className='container' >
+            <div className='container pt-5' >
                 <div className='row pt-5 d-flex justify-content-center'>
                     <div className='col-12 col-m d-6 col-lg-6 text-light aboutTextPart' data-aos="fade-left">
                         <div>
@@ -26,7 +25,7 @@ function About() {
                                 improvements can make a meaningful impact on the user and the business.
                             </p>
 
-                            <a className='btn downloadcvbtn mt-3' href={CV} download>Download CV</a>
+                            <a className='btn mt-3' href={CV} download>Download CV</a>
                         </div>
                     </div>
                 </div>

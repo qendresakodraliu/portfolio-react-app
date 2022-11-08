@@ -1,52 +1,46 @@
 import React, { useEffect } from 'react'
 import './Projects.css'
-import SocialMedia from '../../Assets/Images/Social-Media-min.png'
-import PortfolioImage from '../../Assets/Images/Portfolio-image.png'
+import PortfolioImage from '../../Assets/Images/PortfolioImage.png'
 import Todo from "../../Assets/Images/todo.png"
+import flowerappimg from "../../Assets/Images/flowerappimg.png"
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import ProjectItem from './ProjectItem'
 
 function Projects() {
     useEffect(() => {
         AOS.init({ duration: 2000 })
     }, []);
     return (
-        <div className='projects p-5' id='projects'>
-            <div className='myProjectsText'>
-                <h3>MY <span>Projects</span></h3> <br /> <hr />
+        <div className='projects p-4 ' id='projects'>
+            <div className='myProjectsText pt-5'>
+                <h3>My <span>Projects</span></h3>  <hr />
             </div>
-            <div className='container text-center mt-4'>
+            <div className='container text-center '>
                 <div className='row'>
-                    <div className='col-12 col-md-6 col-lg-4 p-4' data-aos="flip-right">
-                        <div className="card text-dark">
-                            <img src={SocialMedia} className="card-img-top" alt="Social Media" />
-                            <div className="card-body">
-                                <h5 className="card-title">Flower listing app</h5>
-                                <p className="card-text">A react app with flower listing from API endpoint, search functionality and authentication</p>
-                                <a className="btn disabled">More Detail</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col-12 col-md-6 col-lg-4 p-4' data-aos="zoom-in">
-                        <div className="card text-dark">
-                            <img src={Todo} className="card-img-top" alt="Job Portal" />
-                            <div className="card-body">
-                                <h5 className="card-title">Simple Todo App</h5>
-                                <p className="card-text">Created a simple todo app that you can list some todos from API, add todo, delete todo.</p>
-                                <a className="btn disabled">More Detail</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col-12 col-md-6 col-lg-4 p-4' data-aos="flip-left">
-                        <div className="card text-dark">
-                            <img src={PortfolioImage} className="card-img-top" alt="Online vote" />
-                            <div className="card-body">
-                                <h5 className="card-title">Portfolio React App</h5>
-                                <p className="card-text">A simple portfolio React App</p>
-                                <a href="https://github.com/qendresakodraliu/portfolio-react-app" className="btn">More Detail</a>
-                            </div>
-                        </div>
-                    </div>
+
+                    <ProjectItem
+                        image={flowerappimg}
+                        title="Flower listing app"
+                        description="A react app with flower listing from API endpoint, search functionality and authentication"
+                        disabled={true}
+                        efect='flip-right'
+                    />
+                    <ProjectItem
+                        image={Todo}
+                        title="Simple Todo App"
+                        description='Created a simple todo app that you can list some todos from API, add todo, delete todo.'
+                        disabled={true}
+                        efect='zoom-in'
+                    />
+                    <ProjectItem
+                        image={PortfolioImage}
+                        title={'Portfolio React App'}
+                        description='A simple portfolio React App'
+                        disabled={false}
+                        efect='flip-left'
+                    />
+
                 </div>
             </div>
         </div>

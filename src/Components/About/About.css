@@ -8,13 +8,14 @@
     align-items: center;
 }
 
-.downloadcvbtn {
-    color: white;
-    background-color: rgb(211, 23, 111);
+.aboutTextPart a {
+    color: rgb(211, 23, 111);
+    border: 1px solid rgb(211, 23, 111);
+    background-color: transparent;
 }
 
-.downloadcvbtn:hover {
-    background-color: transparent;
+
+.aboutTextPart a:hover {
     color: white;
-    border: 1px solid rgb(211, 23, 111) !important;
+    background-color: rgb(211, 23, 111);
 }

@@ -27,7 +27,7 @@ function HomeBanner() {
                                 }}
                             />
                             </h1><br />
-                            <p>I am passionate and extremely motivated new front-end developer. Working with latest technologies like React JS.<FontAwesomeIcon icon="fa-regular fa-mug-hot" />
+                            <p>I am passionate and extremely motivated new front-end developer. Working with latest technologies like React JS
                             </p>
                             <div className='icons'>
 

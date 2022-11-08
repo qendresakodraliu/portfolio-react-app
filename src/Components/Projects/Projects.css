@@ -34,3 +34,8 @@ hr {
     background-color: transparent;
     border: solid 1px rgb(211, 23, 111) !important;
 }
+
+.card-image {
+    aspect-ratio: 3/2;
+    object-fit: cover;
+}
