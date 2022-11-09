@@ -1,7 +1,7 @@
 {
   "name": "portfolio-react",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://qendresakodraliu.github.io/portfolio-react-app/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
