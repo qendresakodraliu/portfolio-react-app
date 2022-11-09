@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.89339db6.css",
+    "main.js": "/static/js/main.d303db38.js",
+    "static/js/787.aeca62f9.chunk.js": "/static/js/787.aeca62f9.chunk.js",
+    "static/media/background.jpg": "/static/media/background.d9807e6a516e10c63675.jpg",
+    "static/media/PortfolioImage.png": "/static/media/PortfolioImage.648f42b1f429566221aa.png",
+    "static/media/Qendresa-Kodraliu-CV.pdf": "/static/media/Qendresa-Kodraliu-CV.0fe39609e9371fde715c.pdf",
+    "static/media/todo.png": "/static/media/todo.d138c1c1a1291888bbcc.png",
+    "static/media/flowerappimg.png": "/static/media/flowerappimg.8862d85ce68f726a18a1.png",
+    "index.html": "/index.html",
+    "main.89339db6.css.map": "/static/css/main.89339db6.css.map",
+    "main.d303db38.js.map": "/static/js/main.d303db38.js.map",
+    "787.aeca62f9.chunk.js.map": "/static/js/787.aeca62f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.89339db6.css",
+    "static/js/main.d303db38.js"
+  ]
+}
