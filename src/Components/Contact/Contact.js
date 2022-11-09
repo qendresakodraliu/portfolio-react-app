@@ -15,7 +15,7 @@ function Contact() {
                     </div>
                     <div className="form-group mt-2">
                         <label htmlFor="email">Email:</label>
-                        <input type="Email" className="form-control" id="email" placeholder="Enter Email" name="email" required="" />
+                        <input type="Email" required className="form-control" id="email" placeholder="Enter Email" name="email" />
                     </div>
                     <div className="form-group mt-2">
                         <label htmlFor="message">Message:</label>

@@ -8,36 +8,36 @@ hr {
     background-image: -webkit-linear-gradient(left, rgb(0, 0, 0), rgb(255, 255, 255), rgb(255, 255, 255), rgb(0, 0, 0));
 }
 
-.myskillItemText {
+.my-skill-item-text {
     text-align: center;
 }
 
-.myskillItemText span {
+.my-skill-item-text span {
     color: rgb(211, 23, 111);
 }
 
-.skillItemIcon {
+.skill-item-icon {
     color: rgb(211, 23, 111);
 }
 
-.skillItemIcon span {
+.skill-item-icon span {
     border-color: rgb(211, 23, 111) !important;
 }
 
-.skillItem {
+.skill-item {
     transition: 1s;
 }
 
-.skillItem:hover {
+.skill-item:hover {
     background-color: rgb(211, 23, 111);
     transform: scale(1.1);
     cursor: pointer;
 }
 
-.skillItem:hover .skillItemIcon {
+.skill-item:hover .skill-item-icon {
     color: white;
 }
 
-.skillItem:hover .skillItemIcon span {
+.skill-item:hover .skill-item-icon span {
     border-color: white !important;
 }
