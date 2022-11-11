@@ -3,6 +3,7 @@ import './HomeBanner.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook } from '@fortawesome/free-brands-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import Typewriter from 'typewriter-effect'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -33,7 +34,7 @@ function HomeBanner() {
 
                                 <a href="https://www.facebook.com/qendresa.kodraliu/"><FontAwesomeIcon className='icon' icon={faFacebook} /></a>
                                 <a href="https://github.com/qendresakodraliu/"><FontAwesomeIcon className='icon' icon={faGithub} /></a>
-
+                                <a href="https://www.linkedin.com/in/qendresa-kodraliu-19791b256/"><FontAwesomeIcon className='icon' icon={faLinkedin} /></a>
                             </div>
                         </div>
                     </div>
