@@ -5,13 +5,13 @@ import { faFacebook } from '@fortawesome/free-brands-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import Typewriter from 'typewriter-effect'
-import 'bootstrap/dist/css/bootstrap.min.css'
+
 
 
 
 function HomeBanner() {
     return (
-        <div className="w-100 home" id='home'>
+        <div className="w-100 home" id='home' style={{ backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/images/background.jpg'})` }}>
             <div className='container' >
                 <div className='row pt-5 d-flex justify-content-center mt-5' >
                     <div className='col-12 col-md-6 col-lg-6 text-light homeTextPart' >

@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.css';
-import Nav from '../Components/Navbar/Navbar';
-import Contact from '../Components/Contact/Contact';
-import Footer from '../Components/Footer/Footer';
+import Nav from '../components/navbar/Navbar';
+import Contact from '../components/contact/Contact';
+import Footer from '../components/footer/Footer';
 
 function ContactPage() {
   return (

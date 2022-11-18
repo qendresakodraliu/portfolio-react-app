@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react'
 import './About.css'
 import AOS from 'aos'
-import CV from "../../Assets/Documents/Qendresa-Kodraliu-CV.pdf"
+
+
 
 
 function About() {
@@ -25,7 +26,7 @@ function About() {
                                 improvements can make a meaningful impact on the user and the business.
                             </p>
 
-                            <a className='btn mt-3' href={CV} download>Download CV</a>
+                            <a className='btn mt-3' href={"/assets/documents/Qendresa-Kodraliu-CV.pdf"} download>Download CV</a>
                         </div>
                     </div>
                 </div>
