@@ -1,10 +1,10 @@
 import 'bootstrap/dist/css/bootstrap.css';
-import About from '../Components/About/About';
-import HomeBanner from '../Components/HomeBanner/HomeBanner';
-import Nav from '../Components/Navbar/Navbar';
-import Skills from '../Components/Skills/Skills';
-import Projects from '../Components/Projects/Projects';
-import Footer from '../Components/Footer/Footer';
+import About from '../components/about/About';
+import HomeBanner from '../components/homeBanner/HomeBanner';
+import Nav from '../components/navbar/Navbar';
+import Skills from '../components/skills/Skills';
+import Projects from '../components/projects/Projects';
+import Footer from '../components/footer/Footer';
 
 
 function HomePage() {
