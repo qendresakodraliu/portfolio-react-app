@@ -26,7 +26,7 @@ function About() {
                                 improvements can make a meaningful impact on the user and the business.
                             </p>
 
-                            <a className='btn mt-3' href={"/assets/documents/Qendresa-Kodraliu-CV.pdf"} download>Download CV</a>
+                            <a className='btn mt-3' href={process.env.PUBLIC_URL + "/assets/documents/Qendresa-Kodraliu-CV.pdf"} download>Download CV</a>
                         </div>
                     </div>
                 </div>
