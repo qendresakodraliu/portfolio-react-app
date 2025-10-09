@@ -1,43 +1,49 @@
 .skills {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }
 
 hr {
-    height: 2px;
-    background-image: -webkit-linear-gradient(left, rgb(0, 0, 0), rgb(255, 255, 255), rgb(255, 255, 255), rgb(0, 0, 0));
+  height: 2px;
+  background-image: -webkit-linear-gradient(
+    left,
+    rgb(0, 0, 0),
+    rgb(255, 255, 255),
+    rgb(255, 255, 255),
+    rgb(0, 0, 0)
+  );
 }
 
 .my-skill-item-text {
-    text-align: center;
+  text-align: center;
 }
 
 .my-skill-item-text span {
-    color: rgb(211, 23, 111);
+  color: rgb(211, 23, 111);
 }
 
 .skill-item-icon {
-    color: rgb(211, 23, 111);
+  color: rgb(211, 23, 111);
 }
 
 .skill-item-icon span {
-    border-color: rgb(211, 23, 111) !important;
+  border-color: rgb(211, 23, 111) !important;
 }
 
 .skill-item {
-    transition: 1s;
+  transition: 1s;
 }
 
 .skill-item:hover {
-    background-color: rgb(211, 23, 111);
-    transform: scale(1.1);
-    cursor: pointer;
+  background-color: rgb(211, 23, 111);
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 .skill-item:hover .skill-item-icon {
-    color: white;
+  color: white;
 }
 
 .skill-item:hover .skill-item-icon span {
-    border-color: white !important;
+  border-color: white !important;
 }
