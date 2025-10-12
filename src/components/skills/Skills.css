@@ -1,5 +1,5 @@
 .skills {
-  background-color: black;
+  background-color: #1d3557;
   color: white;
 }
 
@@ -19,15 +19,15 @@ hr {
 }
 
 .my-skill-item-text span {
-  color: rgb(211, 23, 111);
+  color: #e63946;
 }
 
 .skill-item-icon {
-  color: rgb(211, 23, 111);
+  color: #e63946;
 }
 
 .skill-item-icon span {
-  border-color: rgb(211, 23, 111) !important;
+  border-color: #e63946 !important;
 }
 
 .skill-item {
@@ -35,7 +35,7 @@ hr {
 }
 
 .skill-item:hover {
-  background-color: rgb(211, 23, 111);
+  background-color: #e63946;
   transform: scale(1.1);
   cursor: pointer;
 }

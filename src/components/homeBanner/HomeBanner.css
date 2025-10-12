@@ -1,58 +1,71 @@
 .home {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: black;
-    height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #1d3557;
+  text-align: center;
+  align-items: center;
+  height: 100vh;
 }
-
-.welcome {
-    font-weight: bolder;
+.welcome-text {
+  font-weight: bolder;
+  color: 1D3557 !important;
+  font-size: 60px;
 }
 
 .homeTextPart {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
 .animatoin-text {
-    font-weight: bolder;
+  font-weight: bolder;
+  font-size: 40px;
+  color: #f1faee;
 }
 
-.homeTextPart h3 {
-    color: rgb(224, 10, 178) !important;
-    align-items: center;
+.homeTextPart h2 {
+  color: #a8dadc !important;
+  align-items: center;
 }
 
 .homeImagePart {
-    padding-top: 72px;
+  padding-top: 72px;
 }
 
 .icons a {
-    font-size: 20px;
-    padding: 0px 10px;
+  height: 30px;
+  width: 30px;
+  font-size: 20px;
+  padding: 5px 10px;
 }
 
 .icons a:hover {
-    font-size: 25px;
-    color: rgb(224, 10, 178);
+  font-size: 25px;
+  color: #1d3557;
 }
 
 .icon {
-    color: white;
+  color: #f1faee;
 }
 
 .icon:hover {
-    color: rgb(224, 10, 178);
+  color: #a8dadc;
 }
 
 @media screen and (max-width: 768px) {
-    .home {
-        height: auto;
-    }
+  .home {
+    height: 110vh;
+  }
 
-    .homeTextPart {
-        text-align: center;
-        padding-top: 80px;
-    }
+  .homeTextPart {
+    text-align: center;
+    padding-top: 80px;
+  }
+}
+.icons-content {
+  padding-bottom: 10px;
+  height: 80px;
+  margin-bottom: 5px;
 }

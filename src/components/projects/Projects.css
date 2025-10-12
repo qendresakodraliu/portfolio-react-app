@@ -1,41 +1,47 @@
 .projects {
-    background-color: black;
-    color: white;
+  background-color: #1d3557;
+  color: #e63946;
 }
 
 hr {
-    height: 2px;
-    background-image: -webkit-linear-gradient(left, rgb(0, 0, 0), rgb(255, 255, 255), rgb(255, 255, 255), rgb(0, 0, 0));
+  height: 2px;
+  background-image: -webkit-linear-gradient(
+    left,
+    #e63946,
+    rgb(255, 255, 255),
+    rgb(255, 255, 255),
+    #e63946
+  );
 }
 
 .myProjectsText {
-    text-align: center;
+  text-align: center;
 }
 
 .myProjectsText span {
-    color: rgb(211, 23, 111);
+  color: #e63946;
 }
 
 .card {
-    transition: 2s;
+  transition: 2s;
 }
 
 .card:hover {
-    cursor: pointer;
-    transform: scale(1.1);
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 .card-body a {
-    color: white;
-    background-color: rgb(211, 23, 111);
+  color: white;
+  background-color: #e63946;
 }
 
 .card-body a:hover {
-    background-color: transparent;
-    border: solid 1px rgb(211, 23, 111) !important;
+  background-color: transparent;
+  border: solid 1px #e63946 !important;
 }
 
 .card-image {
-    aspect-ratio: 3/2;
-    object-fit: cover;
+  aspect-ratio: 3/2;
+  object-fit: cover;
 }

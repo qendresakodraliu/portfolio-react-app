@@ -1,21 +1,20 @@
 .about {
-    background-color: black;
-    transition: 2s;
+  background-color: #1d3557;
+  transition: 2s;
 }
 
 .aboutTextPart {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .aboutTextPart a {
-    color: rgb(211, 23, 111);
-    border: 1px solid rgb(211, 23, 111);
-    background-color: transparent;
+  color: #e63946;
+  border: 1px solid #e63946;
+  background-color: transparent;
 }
 
-
 .aboutTextPart a:hover {
-    color: white;
-    background-color: rgb(211, 23, 111);
+  color: #fbf5f5;
+  background-color: #e63946;
 }
